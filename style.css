@@ -87,6 +87,8 @@ body {
   color: white;
 }
 
+/* Submit */
+
 .boton button {
   font-family: "Overpass", sans-serif;
   width: 100%;
@@ -102,4 +104,52 @@ body {
   background-color: white;
   color: hsl(25, 97%, 53%);
   cursor: pointer;
+}
+
+/* Thanks Section */
+#th-section {
+  color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.th {
+  font-family: "Overpass", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+.th-img img {
+  width: 100%;
+  max-width: 170px;
+}
+
+.th-title {
+  font-family: "Overpass", sans-serif;
+  color: hsl(25, 97%, 53%);
+  padding: 10px;
+  background-color: hsl(210, 14%, 20%);
+  border-radius: 30px;
+  margin: 10px auto;
+  width: 250px;
+}
+
+.th-text {
+  margin-bottom: 10px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(217, 12%, 63%);
+}
+
+.attribution {
+  font-family: "Overpass", sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.attribution a {
+  text-decoration: none;
+  color: darkturquoise;
 }
