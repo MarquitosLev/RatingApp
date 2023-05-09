@@ -1,0 +1,105 @@
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+.box {
+  background-color: hsl(213, 19%, 18%);
+  width: 400px;
+  height: 370px;
+  border-radius: 50px;
+  padding: 25px;
+}
+.card {
+  padding: 10px;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  position: relative;
+}
+
+.star-background {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.star img {
+  width: 27px;
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.subtitle {
+  font-size: 30px;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.texto {
+  color: hsl(217, 12%, 63%);
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.rate button {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: hsl(216, 12%, 54%);
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.rate button.selected {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.rate button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.boton button {
+  font-family: "Overpass", sans-serif;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.boton button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
